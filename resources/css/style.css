@@ -22,6 +22,11 @@ header {
 
 nav a{
     color: seashell;
+    margin: 0px 10px;
+}
+
+nav {
+    margin: 0px 10px; 
 }
 
 .spacer{
@@ -36,8 +41,39 @@ height: 70px;
      flex-wrap: wrap;
      flex-direction: column;
      justify-content: center;
+    
 }
 
 .hero-text {
     background-color: black;
+}
+
+.month {
+    width: 1000px;
+}
+
+.blurbs {
+    width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+  
+}
+
+.locations {
+  height: 500px;
+  width: 1200px;
+  background-image: url(../images/img-locations-background.jpeg);
+  display: flex;
+  flex-direction: column;
+}
+
+.all-addresses {
+  display: flex;
+  justify-content: center;
+}
+
+.address {
+    background-color: black;
+    width: 300px;
+    margin: 15px 20px;
 }
