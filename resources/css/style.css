@@ -1,0 +1,16 @@
+body {
+    background-color: black;
+    opacity: 0.9;
+    font-family: helvetica, arial, sans-serif;
+    color: seashell;
+    font-size: 22px;
+    text-align: center;
+}
+
+header {
+    position: fixed;
+    height: 69px;
+    padding: 0px 10px;
+    border-bottom: 1px solid seashell;
+    display: flex;
+}
