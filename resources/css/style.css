@@ -5,12 +5,39 @@ body {
     color: seashell;
     font-size: 22px;
     text-align: center;
+    margin: 0%;
 }
 
 header {
     position: fixed;
     height: 69px;
+    width: 100%;
     padding: 0px 10px;
     border-bottom: 1px solid seashell;
+    background-color: black;
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav a{
+    color: seashell;
+}
+
+.spacer{
+height: 70px;
+}
+
+.hero {
+     height: 700px;
+     width: 1200px;
+     background-image: url(../images/img-mission-background.jpeg);
+     display: flex;
+     flex-wrap: wrap;
+     flex-direction: column;
+     justify-content: center;
+}
+
+.hero-text {
+    background-color: black;
 }
