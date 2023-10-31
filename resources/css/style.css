@@ -62,19 +62,26 @@ h2 {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    margin-top: -10px;
+    margin-bottom: 50px;
 }
 
-figure{
+figure {
+    margin: 10px;
+}
+
+figcaption h4{
     margin: 10px;
 }
 
 .locations {
-  height: 500px;
+  height: 560px;
   width: 1200px;
   margin: auto;
   background-image: url(../images/img-locations-background.jpeg);
   display: flex;
   flex-direction: column;
+  justify-content: center;
 }
 
 .all-addresses {
@@ -86,4 +93,16 @@ figure{
     background-color: black;
     width: 300px;
     margin: 15px 20px;
+}
+.locations-heading {
+    margin-bottom: 0%;
+}
+
+.contact {
+  height: 200px;
+}
+
+.copyright {
+    text-align: left;
+    margin-left: 20px;
 }
